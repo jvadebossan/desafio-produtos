@@ -39,6 +39,7 @@ public class Produto
         }
         DataEntrada = dataEntrada;
     }
+
     public void SetQuantidade(int quantidade)
     {
         if (quantidade < 0)
@@ -47,6 +48,7 @@ public class Produto
         }
         Quantidade = quantidade;
     }
+
     public void SetPreco(double preco)
     {
         if (preco <= 0)
@@ -55,24 +57,28 @@ public class Produto
         }
         Preco = preco;
     }
+
     public void SetFabricante(string fabricante)
     {
         if (string.IsNullOrWhiteSpace(fabricante))
             throw new ArgumentException("O campo \"fabricante\" não pode estar vazio.");
         Fabricante = fabricante;
     }
+
     public void SetCategoria(string categoria)
     {
         if (string.IsNullOrWhiteSpace(categoria))
             throw new ArgumentException("O campo \"categoria\" não pode estar vazio.");
         Categoria = categoria;
     }
+
     public void SetNome(string nome)
     {
         if (string.IsNullOrWhiteSpace(nome))
             throw new ArgumentException("O campo \"nome\" não pode estar vazio.");
         Nome = nome;
     }
+    
     public void SetCodigo(int codigo)
     {
         if (codigo <= 0)
