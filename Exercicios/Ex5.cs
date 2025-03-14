@@ -7,8 +7,9 @@ public class Ex5
     //TODO Em relação aos fabricantes, quantos temos em nossa base? Crie um ranking dos 5 fabricantes com mais itens em estoque.
     public static void Exec()
     {
+        Console.WriteLine("\n\nExercício 5: ");
+
         var totalFabricantes = Program.produtos.DistinctBy(prod => prod.Fabricante).Count();
-        Console.WriteLine("");
         var estoque = Program.produtos.GroupBy(prod => prod.Fabricante)
         .Select(prod => new
         {
@@ -18,7 +19,7 @@ public class Ex5
         .OrderByDescending(prod => prod.quant)
         .Take(5);
 
-        Console.WriteLine($"Temos {totalFabricantes} fabricantes cadastrados em nossa base. ");
+        Console.WriteLine($"Temos {totalFabricantes} fabricantes cadastrados em nossa base.");
 
         int posicao = 1;
         foreach (var prod in estoque)

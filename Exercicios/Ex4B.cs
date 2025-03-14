@@ -7,6 +7,8 @@ public class Ex4B
     //TODO Crie um ranking dos 3 centros de distribuição com mais estoque. 
     public static void Exec()
     {
+        Console.WriteLine("\n\nExercício 4 B: ");
+
         var estoque = Program.produtos.GroupBy(prod => prod.Empresa)
         .Select(prod => new
         {

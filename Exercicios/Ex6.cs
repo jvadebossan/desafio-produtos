@@ -7,6 +7,8 @@ public class Ex6
     //TODO Quais os produtos com maior valor total em estoque?
     public static void Exec()
     {
+        Console.WriteLine("\n\nExercício 6: ");
+
         var estoque = Program.produtos.GroupBy(prod => prod.Nome)
         .Select(prod => new
         {

@@ -7,6 +7,8 @@ public class Ex4C
     //TODO Crie um ranking dos 5 produtos que mais possuem estoque.
     public static void Exec()
     {
+        Console.WriteLine("\n\nExercício 4 C: ");
+
         var estoque = Program.produtos.GroupBy(prod => prod.Nome)
         .Select(prod => new
         {

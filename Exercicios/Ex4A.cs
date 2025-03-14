@@ -7,6 +7,8 @@ public class Ex4A
     //TODO Crie um ranking das 5 categorias com mais produtos em estoque
     public static void Exec()
     {
+        Console.WriteLine("\n\nExercício 4 A: ");
+
         var estoque = Program.produtos.GroupBy(prod => prod.Categoria)
         .Select(prod => new
         {

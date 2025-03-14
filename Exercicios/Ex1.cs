@@ -7,6 +7,8 @@ public class Ex1
     //TODO: Qual é o produto mais caro do estoque?
     public static void Exec()
     {
+        Console.WriteLine("\n\nExercício 1: ");
+        
         var prodMaisCaro = Program.produtos.MaxBy(prod => prod.Preco);
 
         Console.WriteLine($"O produto mais caro é o {prodMaisCaro.Nome}, custando {prodMaisCaro.Preco:c}.");
