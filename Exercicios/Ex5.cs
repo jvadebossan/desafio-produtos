@@ -26,11 +26,11 @@ public class Ex5
             Console.WriteLine($"{posicao}º Lugar: {prod.nome} - {prod.quant} unidades");
             posicao++;
         }
-        // Temos 10 fabricantes cadastrados em nossa base. 
-        // 1º Lugar: Para-choque Traseiro Volkswagen Polo - 243 unidades
-        // 2º Lugar: Lanterna Dianteira Chevrolet Onix - 238 unidades
-        // 3º Lugar: Farol de Neblina Chevrolet S10 - 236 unidades
-        // 4º Lugar: Para-lama Dianteiro Fiat Strada - 233 unidades
-        // 5º Lugar: Farol de Neblina Volkswagen Polo - 227 unidades
+        // Temos 19 fabricantes cadastrados em nossa base. 
+        // 1º Lugar: Hella - 2712 unidades
+        // 2º Lugar: Magna - 1888 unidades
+        // 3º Lugar: Pilkington - 1788 unidades
+        // 4º Lugar: Magneti Marelli - 1589 unidades
+        // 5º Lugar: Thyssenkrupp - 1488 unidades
     }
 }
