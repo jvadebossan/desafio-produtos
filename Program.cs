@@ -18,8 +18,8 @@ class Program
         //Ex4A.Exec();
         //Ex4B.Exec();
         //Ex4C.Exec();
-        Ex5.Exec();
-        //Ex6.Exec();
+        //Ex5.Exec();
+        Ex6.Exec();
     }
 
     public static void ImportarExcel()
