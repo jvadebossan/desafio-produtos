@@ -17,8 +17,8 @@ class Program
         //Ex3.Exec();
         //Ex4A.Exec();
         //Ex4B.Exec();
-        Ex4C.Exec();
-        //Ex5.Exec();
+        //Ex4C.Exec();
+        Ex5.Exec();
         //Ex6.Exec();
     }
 

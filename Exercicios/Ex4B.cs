@@ -14,7 +14,7 @@ public class Ex4B
             quant = prod.Select(p => p.Quantidade).Sum()
         })
         .OrderByDescending(prod => prod.quant)
-        .Take(5);
+        .Take(3);
 
         int posicao = 1;
         foreach (var prod in estoque)
