@@ -21,6 +21,8 @@ public class Ex6
         {
             Console.WriteLine($"{prod.nome} - {prod.precoTotal:c} ({prod.quant}un X {prod.precoTotal / prod.quant:c})");
         }
+
+        //RESPOSTA
         // Farol de Neblina Chevrolet S10 - R$ 7.955,96 (236un X R$ 33,71)
         // Retrovisor Manual Chevrolet S10 - R$ 7.698,34 (192un X R$ 40,10)
         // Para-choque Dianteiro Volkswagen Saveiro - R$ 7.630,15 (28un X R$ 272,51)

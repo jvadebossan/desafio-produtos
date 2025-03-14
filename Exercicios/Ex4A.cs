@@ -22,6 +22,8 @@ public class Ex4A
             Console.WriteLine($"{posicao}º Lugar: {prod.nome} - {prod.quant} unidades");
             posicao++;
         }
+
+        //RESPOSTA
         // 1º Lugar: Vidros - 4268 unidades
         // 2º Lugar: Farois - 4249 unidades
         // 3º Lugar: Retrovisores - 3948 unidades

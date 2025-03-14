@@ -22,6 +22,8 @@ public class Ex4C
             Console.WriteLine($"{posicao}º Lugar: {prod.nome} - {prod.quant} unidades");
             posicao++;
         }
+
+        //RESPOSTA
         // 1º Lugar: Para-choque Traseiro Volkswagen Polo - 243 unidades
         // 2º Lugar: Lanterna Dianteira Chevrolet Onix - 238 unidades
         // 3º Lugar: Farol de Neblina Chevrolet S10 - 236 unidades

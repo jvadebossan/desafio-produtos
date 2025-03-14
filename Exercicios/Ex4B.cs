@@ -22,6 +22,8 @@ public class Ex4B
             Console.WriteLine($"{posicao}º Lugar: {prod.nome} - {prod.quant} unidades");
             posicao++;
         }
+
+        //RESPOSTA
         // 1º Lugar: Filial MG - 5449 unidades
         // 2º Lugar: Filial SP - 5442 unidades
         // 3º Lugar: Filial PR - 5222 unidades

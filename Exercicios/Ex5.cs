@@ -26,6 +26,8 @@ public class Ex5
             Console.WriteLine($"{posicao}º Lugar: {prod.nome} - {prod.quant} unidades");
             posicao++;
         }
+
+        //RESPOSTA
         // Temos 19 fabricantes cadastrados em nossa base. 
         // 1º Lugar: Hella - 2712 unidades
         // 2º Lugar: Magna - 1888 unidades
