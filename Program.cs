@@ -1,9 +1,13 @@
-﻿using desafio_produtos.Exercicios;
+﻿using DesafioProdutos.Exercicios;
+using DesafioProdutos.Models;
 
 namespace DesafioProdutos;
 
 class Program
 {
+    static string caminhoArquivo = Path.Combine(Environment.CurrentDirectory, "Produtos.xlsx");
+    public static List<Produto> produtos = [];
+
     public static void Main(string[] args)
     {
         Ex1.Exec();

@@ -1,6 +1,6 @@
 using System;
 
-namespace desafio_produtos.Exercicios;
+namespace DesafioProdutos.Exercicios;
 
 public class Ex1
 {
