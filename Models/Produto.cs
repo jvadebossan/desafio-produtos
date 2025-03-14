@@ -41,9 +41,9 @@ public class Produto
     }
     public void SetQuantidade(int quantidade)
     {
-        if (quantidade <= 0)
+        if (quantidade < 0)
         {
-            throw new Exception("O campo Quantidade deve ser maior do que zero");
+            throw new Exception("O campo Quantidade não pode ser negativo");
         }
         Quantidade = quantidade;
     }

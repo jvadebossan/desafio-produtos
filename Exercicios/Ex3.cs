@@ -7,10 +7,10 @@ public class Ex3
     //TODO: Quantos produtos entraram no estoque por mês? Faça uma lista ordenada ascendente dos meses e as respectivas quantidades.
     public static void Exec()
     {
-        var meses = Program.produtos.GroupBy(musica => new
+        var meses = Program.produtos.GroupBy(prod => new
         {
-            mes = musica.DataEntrada.Month,
-            ano = musica.DataEntrada.Year
+            mes = prod.DataEntrada.Month,
+            ano = prod.DataEntrada.Year
         })
         .OrderBy(m => m.Key.ano).ThenBy(m => m.Key.mes)
         .Select(m => new

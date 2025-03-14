@@ -14,8 +14,8 @@ class Program
         ImportarExcel();
         //Ex1.Exec();
         //Ex2.Exec();
-        Ex3.Exec();
-        //Ex4A.Exec();
+        //Ex3.Exec();
+        Ex4A.Exec();
         //Ex4B.Exec();
         //Ex4C.Exec();
         //Ex5.Exec();
